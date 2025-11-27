@@ -7,24 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
     <main>
-        <section id="calculadora">
-            <h2>Calculadora</h2>
-                    <div id="container">
-                    <label for="n1">Digite o primeiro número:</label>
-                    <input id="n1" type="number" title="campo para digitar o primeiro valor">
-                    <label for="n2">Digite o segundo número:</label>
-                    <input id="n2" type="number" title="campo para digitar o segundo valor">
-                    <div id="botoes">
-                        <input id="somar" type="button" value="Somar">
-                        <input id="subtrair" type="button" value="Subtrair">
-                        <input id="multiplicar" type="button" value="Multiplicar">
-                        <input id="dividir" type="button" value="Dividir">
-                    </div>
-                    </div>
-                    <p id="resultado"></p>
-        </section>
+            <input id="n1" type="number" title="campo para digitar o primeiro valor" placeholder="Digite o primeiro número">
+            <input id="n2" type="number" title="campo para digitar o segundo valor" placeholder="Digite o segundo número">
+                <div id="botoes">
+                    <button id="somar">Somar</button>
+                    <button id="subtrair">Subtrair</button>
+                    <button id="multiplicar">Multiplicar</button>
+                    <button id="dividir">Dividir</button>
+                </div>
+                <p id="resultado"></p>
     </main>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
