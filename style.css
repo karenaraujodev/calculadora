@@ -69,8 +69,9 @@ button:focus {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
-  flex-wrap: wrap; /* opcional, melhora em telas pequenas */
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 button{
