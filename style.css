@@ -97,3 +97,9 @@ button:hover {
   font-weight: bold;
   color: var(--text-color);
 }
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--text-color);
+    font-weight:bolder
+}
